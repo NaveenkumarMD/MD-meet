@@ -136,6 +136,19 @@ input{
     .navbar{
         padding-left: 10px;
     }
+    .createnewmeetingcontainer{
+
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 60px;
+        
+        
+    }
+    .colors{
+        display: none;
+    }
   }
 
 
