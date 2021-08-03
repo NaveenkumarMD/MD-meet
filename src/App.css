@@ -1,0 +1,142 @@
+.navbar{
+ height: 50px;
+ padding-right: 10px;
+ background-color: white; 
+ display:flex;
+ align-items:center;
+ flex-direction: row;
+ padding-left:30px;
+ justify-content:space-between
+
+}
+.title{
+    font-size: 26px;
+    color:rgba(0,0,0,0.8)
+}
+.time{
+    font-size:20px;
+    color:#5F6368;
+    font-weight: 500;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+    margin:0px;
+    max-width: 500px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+}
+.content>.text-large{
+    font-size:40px
+}
+.content>.text-small{
+    margin-top:20px;
+    font-size:18px;
+    color:rgba(0,0,0,0.7);
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+.content>.btn-group{
+    margin-top: 30px;
+    display:flex;
+    align-items:center
+}
+
+.content>.btn-group>.button-solid{
+    font-size:16px;
+    background-color:#0056E0;
+    color:white;
+    outline:none;
+    border:2px solid #0056E0 ;
+    padding:10px 20px ;
+    border-radius: 4px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:row;
+}
+.content>.btn-group>.button-outline{
+    font-size:16px;
+    background-color:white;
+    color:#0056E0;
+    outline:none;
+    border:2px solid #0056E0;
+    padding:10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin:10px
+}
+
+.createnewmeetingcontainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 60px;
+    
+    
+}
+.h1{
+    color:#0056E0;
+    font-size:28px;
+    margin:20px 0px;
+    font-weight: 600;
+}
+label{
+    margin-bottom:10px
+}
+input{
+    height:40px;
+    width:200px;
+    border-radius: 4px;
+    outline:none;
+    border:2px solid gray;
+    margin-bottom:20px;
+    margin-top: 5px;
+    font-size:16px;
+    padding-left: 10px;
+}
+.btn-solid{
+    font-size:16px;
+    background-color:#0056E0;
+    color:white;
+    outline:none;
+    border:2px solid #0056E0 ;
+    padding:10px 20px ;
+    border-radius: 4px;
+    cursor:pointer;
+    display:flex;
+    flex-direction:row;
+
+}
+.createnewmeetingcontainer>.contents{
+
+    
+}
+.createnewmeetingcontainer>.colors{
+
+    
+}
+@media only screen and (max-width: 800px) {
+    .container{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .content{
+        margin: 20px;
+    }
+    .navbar{
+        padding-left: 10px;
+    }
+  }
+
+
+
